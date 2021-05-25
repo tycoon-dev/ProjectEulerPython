@@ -1,5 +1,5 @@
 # ProjectEulerPython
-Some of Project euler's problems done in Python
+Some of Project euler's problems done in Python, run main.py by double-clicking.
 
 	Currently done:
 	Problem 1: Done
