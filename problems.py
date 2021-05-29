@@ -8,11 +8,49 @@ def problem1():
 
 def problem3():
 	
-	x = 13195
 	
-	for y in range(x-1, 1,-1):
-		if(x % y == 0):
-			return y;
+	
+	valor = 63400
+	y = []
+	p = 2
+	hasFound = False
+	
+	for x in range(0,valor):
+		y.append(False)
+		
+	while(hasFound == False):
+		for z in range(2, valor, 1):
+			if(z*p < valor):
+				if (y[z*p] == False):
+					y[z*p] = True
+					
+					
+				
+		
+		for x in range(2, valor, 1):
+			if((x > p) and (y[x] == False)):
+				p = x
+				break
+			elif(x == valor-1):
+				hasFound = True
+			
+			
+	
+	for a in range (valor-1, 0, -1):
+		if (y[a] == False):
+			return a;
+			
+		
+			
+		
+	
+	
+	
+	
+			
+			
+			
+			
 			
 def problem5():
 	hasFound = False
